@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println("Koko Lubilubi is better! than gholibeigian");
-        System.out.printf("It is printf function!");
-        System.out.println("22");
+
+        Account myAccount = new Account(123,"Start");
+        Account myAccount = new Account(54,"St");
+        Account myAccount = new Account(87945,"Mt");
+        Account myAccount = new Account(576,"Zut");
     }
 }
