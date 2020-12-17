@@ -31,6 +31,12 @@ public class Main {
                 "I will sleep with you!");
         Account maryAccount = new Account(35,"no money no honey!");
 
+        System.out.println("Hi Simon!");
+        System.out.println("I love you Simon!");
+        System.out.println("That is why I need your help!");
+
+        Person helper = Person(32,"Simon","Stupid land Street 1");
+
 
 
     }
