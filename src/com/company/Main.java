@@ -21,5 +21,8 @@ public class Main {
         System.out.println("How is the weather there");
         System.out.println("Where is the boss!");
         System.out.println("Where is the boss!");
+
+        System.out.println("Hello Simon!");
+        System.out.println("Fuck off! You do not have money!");
     }
 }
