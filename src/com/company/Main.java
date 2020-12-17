@@ -39,7 +39,12 @@ public class Main {
         System.out.println("Simon takes care of Mary!");
         System.out.println("Mary is the love of his life" +
                 ", but he has to pay a lot!");
-        Account simonAccount = new Account(2323, "out of order!");
+        Account simonAccoun1t = new Account(2323, "out of order!");
+        Person helpe1r = Person(32,"Simon","Stupid land Street 1");
+        System.out.println("Simon takes care of Mary!");
+        System.out.println("Mary is the love of his life" +
+                ", but he has to pay a lot!");
+        Account simonAccoun2t = new Account(2323, "out of order!");
 
 
 
