@@ -24,5 +24,9 @@ public class Main {
 
         System.out.println("Hello Simon!");
         System.out.println("Fuck off! You do not have money!");
+        System.out.println("We should welcome the boss!");
+        Person boss = new Person(56,"Boss B", "Holland Street 99");
+        System.out.println("Wellcome " + boss.Name);
+
     }
 }
