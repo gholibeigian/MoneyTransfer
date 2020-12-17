@@ -27,6 +27,11 @@ public class Main {
         System.out.println("We should welcome the boss!");
         Person boss = new Person(56,"Boss B", "Holland Street 99");
         System.out.println("Wellcome " + boss.Name);
+        System.out.println("Boss, when you are a rick man," +
+                "I will sleep with you!");
+        Account maryAccount = new Account(35,"no money no honey!");
+
+
 
     }
 }
