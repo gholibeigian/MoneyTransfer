@@ -7,7 +7,7 @@ public class Person {
 
     public Person(int age, String name, String address) {
         Age = age;
-        Name = "Marry";
+        Name = "Marry ";
         Address = address + " give it to Marry!";
     }
 
