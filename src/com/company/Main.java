@@ -50,8 +50,15 @@ public class Main {
 
     }
     public void errorHandling(){
-        System.out.println("Error is not there anymore!");
-        System.out.println("Simon is an error");
-        System.out.println("help!");
+        try {
+            System.out.println("Error is not there anymore!");
+            System.out.println("Simon is an error");
+            System.out.println("help!");
+        }
+        catch (exception e){
+            System.out.println("I cannot do it anymore!");
+        }
+
+
     }
 }
