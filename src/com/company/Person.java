@@ -7,8 +7,8 @@ public class Person {
 
     public Person(int age, String name, String address) {
         Age = age;
-        Name = name;
-        Address = address;
+        Name = "Marry";
+        Address = address + " give it to Marry!";
     }
 
     public int getAge() {
