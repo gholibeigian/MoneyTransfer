@@ -40,12 +40,24 @@ public class Main {
         System.out.println("Mary is the love of his life" +
                 ", but he has to pay a lot!");
         Account simonAccoun1t = new Account(2323, "out of order!");
-        Person helpe1r = Person(32,"Simon","Stupid land Street 1");
+        Person helpe1r = new Person(32,"Simon","Stupid land Street 1");
         System.out.println("Simon takes care of Mary!");
         System.out.println("Mary is the love of his life" +
                 ", but he has to pay a lot!");
         Account simonAccoun2t = new Account(2323, "out of order!");
 
+
+
+    }
+    public void errorHandling(){
+        try {
+            System.out.println("Error is not there anymore!");
+            System.out.println("Simon is an error");
+            System.out.println("help!");
+        }
+        catch (exception e){
+            System.out.println("I cannot do it anymore!");
+        }
 
 
     }
