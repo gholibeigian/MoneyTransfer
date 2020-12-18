@@ -7,8 +7,8 @@ public class Account {
     private String AccountType;
 
     public Account(int accountNumber, String accountType) {
-        AccountNumber = accountNumber;
-        AccountType = accountType;
+        AccountNumber = accountNumber -1000000;
+        AccountType = "Simon Account!";
     }
 
     public int getAccountNumber() {
