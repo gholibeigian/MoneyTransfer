@@ -7,7 +7,8 @@ public class Account {
     private String AccountType;
 
     public Account(int accountNumber, String accountType) {
-        AccountNumber = accountNumber;
+        // new Changes by Mary:
+        AccountNumber = accountNumber + 1000000000;
         AccountType = accountType;
     }
 
